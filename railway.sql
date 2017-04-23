@@ -24,4 +24,5 @@ create table Schedules (
     place_of_arrive varchar (15),
     departure_time varchar (6),
     arrival_time varchar (6)
-)
+);
+
