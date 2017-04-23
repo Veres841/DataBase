@@ -1,6 +1,6 @@
-drop database if exists aerport;
-create database aerport;
-use aerport;
+drop database if exists airport;
+create database airport;
+use airport;
 
 create table Customer (
 	id int primary key auto_increment,
