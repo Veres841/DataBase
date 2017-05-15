@@ -1,9 +1,9 @@
-create database if not exists internetMarket; /* якщо база даних не існує */
+create database if not exists internetMarket; /* створити якщо база даних не існує */
 
 use internetMarket; /* обрати базу даних */
 
 create table if not exists customer(         /*створення таблиці*/
-	id int primary key auto_increment,
+	id int primary key auto_increment,     /* Створити унікальний обов'язковий ключ з автододаванням*/
     firstName varchar(50) not null,         /* створення обовязкового поля */
     lastName varchar(50) not null,
     email varchar(100) not null unique,     /* унікальне значення*/
